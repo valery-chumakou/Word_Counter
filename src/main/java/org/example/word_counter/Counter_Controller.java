@@ -25,8 +25,8 @@ public class Counter_Controller extends Application {
     }
 
     private static Parent loadFXML(String fxml) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(Counter.class.getResource(fxml + ".fxml"));
-        return fxmlLoader.load();
+        FXMLLoader fxmlLoader = new FXMLLoader(Counter_Controller.class.getResource(fxml + ".fxml"));
+         return fxmlLoader.load();
     }
 
     public static void main (String [] args) {
